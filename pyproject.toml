@@ -7,7 +7,12 @@ authors = [
     { name = "Ruri1212", email = "rikuinoue1007@icloud.com" }
 ]
 requires-python = ">=3.12.9"
-dependencies = []
+dependencies = [
+    "mypy>=1.15.0",
+    "numpy>=2.2.5",
+    "pre-commit>=4.2.0",
+    "ruff>=0.11.7",
+]
 
 [project.scripts]
 uv-sample = "uv_sample:main"
