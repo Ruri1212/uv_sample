@@ -1,0 +1,17 @@
+[project]
+name = "uv-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ruri1212", email = "rikuinoue1007@icloud.com" }
+]
+requires-python = ">=3.12.9"
+dependencies = []
+
+[project.scripts]
+uv-sample = "uv_sample:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
